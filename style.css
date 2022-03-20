@@ -1,5 +1,6 @@
 *{
     font: roboto;
+    background-color: #1F2937;
 }
 
 header{
@@ -24,4 +25,34 @@ header{
 li{
     display: inline-block;
     padding: 0px 20px;
+}
+
+.hero-section{
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-items{
+    flex-direction: column;
+}
+
+#odin-intro{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+#odin-img{
+    height: 250px;
+    width: 250px;
+}
+
+.learn-more{
+    color: #F9FAF8;
+    background-color: rgb(6, 36, 59);
+    border-radius: 7px;
+    border-style: none;
+    height: 50px;
+    width: 100px;
 }
