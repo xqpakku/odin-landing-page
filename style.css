@@ -1,6 +1,6 @@
 *{
     font: roboto;
-    background-color: #1F2937;
+    
 }
 
 header{
@@ -28,6 +28,7 @@ li{
 }
 
 .hero-section{
+    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
@@ -50,9 +51,32 @@ li{
 
 .learn-more{
     color: #F9FAF8;
-    background-color: rgb(6, 36, 59);
+    background-color: #3882f6;
     border-radius: 7px;
     border-style: none;
     height: 50px;
     width: 100px;
+}
+
+.information-section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+#odin-information{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.information-section img{
+    width: 300px;
+    height: 300px;
+    border: #1F2937;
+    border-radius: 5px;
+    border-style: solid;
 }
