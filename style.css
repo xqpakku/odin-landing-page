@@ -49,12 +49,12 @@ li{
     width: 250px;
 }
 
-.learn-more{
+.learn-more-top, .learn-more-bottom{
     color: #F9FAF8;
     background-color: #3882f6;
     border-radius: 7px;
     border-style: none;
-    height: 50px;
+    height: 30px;
     width: 100px;
 }
 
@@ -96,4 +96,31 @@ li{
 #odin-quote-author{
     font-size: 18px;
     text-align: center;
+}
+
+.learn-more-section{
+background-color: white;
+display: flex;
+justify-content: center;
+padding: 75px;
+}
+
+.blue-box{
+    background-color: #3882f6;
+    height: 75px;
+    width: 900px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 15px;
+}
+.learn-more-bottom{
+    border-style: solid;
+    border-color: white;
+    margin: 20px;    
+}
+#learn-more-text{
+    
+    margin: 25px;
 }
