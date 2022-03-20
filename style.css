@@ -80,3 +80,20 @@ li{
     border-radius: 5px;
     border-style: solid;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+}
+#odin-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+#odin-quote-author{
+    font-size: 18px;
+    text-align: center;
+}
